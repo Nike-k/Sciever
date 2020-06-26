@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+body {
+  font-family: "Lora", serif;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+nav > .nav.nav-tabs {
+  border: none;
+  color: #000;
+  background: #fff;
+  border-radius: 0;
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active {
+  border: none;
+  padding: 12px 10px;
+  color: #000;
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+}
+.tab-content {
+  line-height: 25px;
+  padding: 30px 25px;
+  min-height: 500px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background: #c2c2c2;
+  color: #000;
+  border-radius: 0;
+  transition: background 0.2s linear;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+
+}
+
+#boxes .box img{
+  width:120px;
+  box-shadow: 10px 10px 10px;
+
+}
+
+.tab-pane {
+  padding-top: 100px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
